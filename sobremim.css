@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('https://img.freepik.com/vetores-gratis/design-de-fundo-preto-escuro-com-listras_1017-38064.jpg?w=1380&t=st=1725383900~exp=1725384500~hmac=db01275419fb03401e06cca29a02d5532a3f827c39bb89ca6cdbffa1ee4071fe');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: #fff;
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+}
+
+/* Introdução Pessoal */
+.introduction {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 2rem;
+}
+
+.bio {
+    max-width: 600px;
+}
+
+.bio h1 {
+    margin-bottom: 1rem;
+}
+
+.bio p {
+    line-height: 1.6;
+}
+
+.habilidades-t {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+
+.habilidades-c {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #007bff;
+}
